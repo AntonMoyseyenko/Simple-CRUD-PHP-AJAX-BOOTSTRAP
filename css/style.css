@@ -1,0 +1,25 @@
+  .box {
+    background: grey;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 45px;
+  }
+  .box:hover {
+    background: green;
+    border-radius: 50%;
+  }
+
+  #typedtext {
+      font-family: 'Waiting for the Sunrise', cursive; 
+      font-size:30px; 
+      color: midnightblue;
+      margin: 10px 50px; 
+      letter-spacing: 6px; 
+      font-weight: bold;  
+  }
